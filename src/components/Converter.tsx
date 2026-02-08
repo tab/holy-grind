@@ -1,7 +1,7 @@
 import { useState, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import type { Grinder } from '@/utils/convert';
-import { convert, getRange } from '@/utils/convert';
+import { convert, getRange, parseDecimal } from '@/utils/convert';
 import GrinderSelect from '@/components/GrinderSelect';
 import Result from '@/components/Result';
 
@@ -19,7 +19,7 @@ export default function Converter({ grinders }: ConverterProps) {
 
   const result = useMemo(() => {
     if (!source || !target || !input) return { result: null, noData: false };
-    const val = parseFloat(input);
+    const val = parseDecimal(input);
     if (isNaN(val)) return { result: null, noData: false };
     const r = convert(source, target, val);
     if (r === null) return { result: null, noData: true };
@@ -54,15 +54,12 @@ export default function Converter({ grinders }: ConverterProps) {
       <div className="setting-input">
         <label>{t('converter.setting')}</label>
         <input
-          type="number"
+          type="text"
           inputMode="decimal"
-          step="any"
           placeholder={t('converter.input.placeholder')}
           value={input}
           onChange={e => setInput(e.target.value)}
           disabled={!source}
-          min={sourceRange?.min}
-          max={sourceRange?.max}
         />
         {sourceRange && (
           <small className="range-hint">

@@ -143,6 +143,11 @@ export function convert(
   }
 }
 
+/** Parse a locale-aware decimal string (accepts both "." and "," as separator) */
+export function parseDecimal(value: string): number {
+  return parseFloat(value.replace(',', '.'));
+}
+
 /** Get the valid input range for a grinder */
 export function getRange(grinder: Grinder): { min: number; max: number; display: { min: string; max: string } } | null {
   const indices = getValidIndices(grinder);
