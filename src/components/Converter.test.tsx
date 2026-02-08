@@ -11,6 +11,14 @@ vi.mock('react-i18next', () => ({
 
 const grinders = [numericGrinder, numericGrinder2, textGrinder, noOverlapGrinder];
 
+/** Find a dropdown option by its full text content (handles brand+model split across spans) */
+function getOption(name: string) {
+  const options = screen.getAllByRole('option');
+  const match = options.find(el => el.textContent === name);
+  if (!match) throw new Error(`Option "${name}" not found`);
+  return match;
+}
+
 describe('Converter', () => {
   it('disables input when no source grinder is selected', () => {
     render(<Converter grinders={grinders} />);
@@ -29,7 +37,7 @@ describe('Converter', () => {
     // Select source grinder
     const searchInputs = screen.getAllByPlaceholderText('converter.grinder.search');
     await user.click(searchInputs[0]);
-    await user.click(screen.getByText('Numeric Grinder'));
+    await user.click(getOption('NumericGrinder'));
 
     expect(screen.getByText(/1/)).toBeInTheDocument();
     expect(screen.getByText(/5/)).toBeInTheDocument();
@@ -42,7 +50,7 @@ describe('Converter', () => {
     // Select source
     const searchInputs = screen.getAllByPlaceholderText('converter.grinder.search');
     await user.click(searchInputs[0]);
-    await user.click(screen.getByText('Numeric Grinder'));
+    await user.click(getOption('NumericGrinder'));
 
     // Enter value
     const settingInput = screen.getByPlaceholderText('converter.input.placeholder');
@@ -50,7 +58,7 @@ describe('Converter', () => {
 
     // Select target
     await user.click(searchInputs[1]);
-    await user.click(screen.getByText('Numeric Grinder 2'));
+    await user.click(getOption('NumericGrinder 2'));
 
     // Result should show 30
     expect(screen.getByText('30')).toBeInTheDocument();
@@ -63,7 +71,7 @@ describe('Converter', () => {
     // Select source
     const searchInputs = screen.getAllByPlaceholderText('converter.grinder.search');
     await user.click(searchInputs[0]);
-    await user.click(screen.getByText('Numeric Grinder'));
+    await user.click(getOption('NumericGrinder'));
 
     // Enter value
     const settingInput = screen.getByPlaceholderText('converter.input.placeholder');
@@ -71,7 +79,7 @@ describe('Converter', () => {
 
     // Select target
     await user.click(searchInputs[1]);
-    await user.click(screen.getByText('Numeric Grinder 2'));
+    await user.click(getOption('NumericGrinder 2'));
 
     // Click swap
     const swapButton = screen.getByTitle('converter.swap');
@@ -90,7 +98,7 @@ describe('Converter', () => {
     // Select source
     const searchInputs = screen.getAllByPlaceholderText('converter.grinder.search');
     await user.click(searchInputs[0]);
-    await user.click(screen.getByText('Numeric Grinder'));
+    await user.click(getOption('NumericGrinder'));
 
     // Enter value
     const settingInput = screen.getByPlaceholderText('converter.input.placeholder');
@@ -98,7 +106,7 @@ describe('Converter', () => {
 
     // Select target with no overlap
     await user.click(searchInputs[1]);
-    await user.click(screen.getByText('No Overlap Grinder'));
+    await user.click(getOption('No Overlap Grinder'));
 
     expect(screen.getByText('errors.overlap')).toBeInTheDocument();
   });
@@ -110,11 +118,11 @@ describe('Converter', () => {
     // Select source
     const searchInputs = screen.getAllByPlaceholderText('converter.grinder.search');
     await user.click(searchInputs[0]);
-    await user.click(screen.getByText('Numeric Grinder'));
+    await user.click(getOption('NumericGrinder'));
 
     // Select target
     await user.click(searchInputs[1]);
-    await user.click(screen.getByText('Numeric Grinder 2'));
+    await user.click(getOption('NumericGrinder 2'));
 
     // Focus swap and press Enter
     const swapButton = screen.getByTitle('converter.swap');

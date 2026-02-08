@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
 import type { Grinder } from '@/utils/convert';
 
@@ -35,6 +35,14 @@ export default function GrinderSelect({ grinders, value, onChange, label }: Grin
     setOpen(false);
   }
 
+  const listRef = useCallback((ul: HTMLUListElement | null) => {
+    if (!ul || !value || query) return;
+    const selected = ul.querySelector('.selected');
+    if (selected) {
+      selected.scrollIntoView({ block: 'center' });
+    }
+  }, [value, query]);
+
   return (
     <div className="grinder-select" ref={ref}>
       <label>{label}</label>
@@ -53,7 +61,7 @@ export default function GrinderSelect({ grinders, value, onChange, label }: Grin
         autoComplete="off"
       />
       {open && (
-        <ul className="grinder-dropdown" role="listbox">
+        <ul className="grinder-dropdown" role="listbox" ref={listRef}>
           {filtered.length === 0 ? (
             <li className="grinder-dropdown-empty">{t('common.noResults')}</li>
           ) : (
@@ -65,7 +73,14 @@ export default function GrinderSelect({ grinders, value, onChange, label }: Grin
                 className={value?.id === g.id ? 'selected' : ''}
                 onClick={() => select(g)}
               >
-                {g.name}
+                {g.brand && g.model ? (
+                  <>
+                    <span className="grinder-brand">{g.brand}</span>
+                    <span className="grinder-model">{g.model}</span>
+                  </>
+                ) : (
+                  <span className="grinder-model">{g.name}</span>
+                )}
               </li>
             ))
           )}
