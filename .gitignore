@@ -1,0 +1,18 @@
+# IDEs directories
+.idea
+.vscode
+
+# Claude
+.claude/
+
+# Node modules
+node_modules/
+
+# dist
+dist/
+
+# data
+data/
+
+# env file
+.env

@@ -1,0 +1,33 @@
+{
+  "app": {
+    "title": "Holy Grind",
+    "subtitle": "Coffee Grinder Settings Converter",
+    "version": "Version",
+    "source": "Data by"
+  },
+  "converter": {
+    "from": "Choose grinder",
+    "to": "To",
+    "setting": "Setting",
+    "result": "Result",
+    "swap": "Swap",
+    "grinder": {
+      "search": "Search grinder..."
+    },
+    "input": {
+      "placeholder": "Enter setting value",
+      "range": "Range: {{min}} - {{max}}"
+    }
+  },
+  "common": {
+    "loading": "Loading data...",
+    "noResults": "No results"
+  },
+  "errors": {
+    "load": {
+      "data": "Failed to load grinder data"
+    },
+    "overlap": "No overlapping data between these grinders",
+    "range": "Value clamped to grinder range"
+  }
+}

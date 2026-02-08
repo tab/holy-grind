@@ -1,0 +1,291 @@
+:root {
+  --card-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --card-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+  }
+}
+
+/* Layout */
+body {
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 520px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  position: relative;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+header h1 {
+  margin-bottom: 0.25rem;
+  font-size: 2.2rem;
+}
+
+.title-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.subtitle {
+  opacity: 0.7;
+  margin-bottom: 0;
+  font-size: 0.95rem;
+}
+
+/* Language switcher */
+.lang-switcher {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+@media (min-width: 576px) {
+  .lang-switcher {
+    right: 0;
+  }
+}
+
+.lang-switcher-toggle {
+  --pico-background-color: transparent;
+  --pico-border-color: var(--pico-muted-border-color);
+  --pico-color: var(--pico-muted-color);
+  border-radius: 8px;
+  padding: 0.25rem 0.6rem;
+  font-size: 0.8rem;
+  margin: 0;
+  width: auto;
+}
+
+.lang-switcher-dropdown {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  margin: 0.25rem 0 0;
+  padding: 0.25rem 0;
+  list-style: none;
+  background: var(--pico-card-background-color, #fff);
+  border: 1px solid var(--pico-muted-border-color, #ddd);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  min-width: 120px;
+  z-index: 200;
+}
+
+.lang-switcher-dropdown li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .lang-switcher-dropdown {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  }
+}
+
+.lang-switcher-dropdown a {
+  display: block;
+  padding: 0.35rem 0.75rem;
+  font-size: 0.85rem;
+  text-decoration: none;
+  color: var(--pico-color);
+}
+
+.lang-switcher-dropdown a:hover {
+  background: var(--pico-primary-focus);
+}
+
+.lang-switcher-dropdown a.active {
+  font-weight: 600;
+  color: var(--pico-primary);
+}
+
+/* Converter card */
+.converter-card {
+  border-radius: 16px;
+  box-shadow: var(--card-shadow);
+  padding: 1.5rem;
+  margin: 0;
+}
+
+/* Grinder select */
+.grinder-select {
+  position: relative;
+  margin-bottom: 0.75rem;
+}
+
+.grinder-select label {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.grinder-select input {
+  margin-bottom: 0;
+}
+
+.grinder-dropdown {
+  position: absolute;
+  z-index: 100;
+  top: 100%;
+  left: 0;
+  right: 0;
+  max-height: 240px;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: var(--pico-card-background-color, #fff);
+  border: 1px solid var(--pico-muted-border-color, #ddd);
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+@media (prefers-color-scheme: dark) {
+  .grinder-dropdown {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  }
+}
+
+.grinder-dropdown li {
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.15s;
+}
+
+.grinder-dropdown li:hover,
+.grinder-dropdown li.selected {
+  background: var(--pico-primary-focus);
+}
+
+.grinder-dropdown-empty {
+  padding: 0.5rem 0.75rem;
+  opacity: 0.5;
+  font-size: 0.9rem;
+}
+
+/* Setting input */
+.setting-input {
+  margin-bottom: 0.5rem;
+}
+
+.setting-input label {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.setting-input input {
+  margin-bottom: 0;
+}
+
+.range-hint {
+  opacity: 0.6;
+  display: block;
+  margin-top: 0.5rem;
+}
+
+/* Swap */
+.swap-container {
+  display: flex;
+  justify-content: center;
+  margin: 0.75rem 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.swap-icon {
+  width: 24px;
+  height: 24px;
+  fill: var(--pico-muted-color);
+  transition: fill 0.2s, transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.swap-container:hover .swap-icon {
+  fill: var(--pico-primary);
+  transform: scaleY(-1);
+}
+
+.swap-container:active .swap-icon {
+  transform: scaleY(-1) scale(0.9);
+}
+
+/* Result section */
+.result-section {
+  margin-top: 1rem;
+}
+
+.result-section label {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.result {
+  padding: 1.25rem 1rem;
+  text-align: center;
+  min-height: 48px;
+  border-top: 1px solid var(--pico-muted-border-color);
+}
+
+.result-empty {
+  opacity: 0.35;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.result-value {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0.5rem;
+  animation: fadeIn 0.3s ease;
+}
+
+.result-number {
+  font-size: 2.4rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--pico-color);
+}
+
+.result-clamped {
+  display: block;
+  margin-top: 0.5rem;
+  color: var(--pico-muted-color);
+  font-size: 0.8rem;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Footer */
+footer {
+  margin: 1rem 0 0 0;
+  opacity: 0.5;
+  text-align: center;
+}
+
+/* Loading */
+.loading {
+  text-align: center;
+  opacity: 0.6;
+}
