@@ -9,28 +9,10 @@
   --glass-hover: rgba(255, 235, 200, 0.5);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --card-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-    --glass-bg: rgba(30, 30, 30, 0.6);
-    --glass-border: rgba(255, 255, 255, 0.1);
-    --glass-input-bg: rgba(255, 255, 255, 0.08);
-    --glass-input-border: rgba(255, 255, 255, 0.15);
-    --glass-dropdown-bg: #282828;
-    --glass-hover: rgba(255, 255, 255, 0.08);
-  }
-}
-
 /* Layout */
 body {
   min-height: 100vh;
   background: linear-gradient(160deg, #fafafa 0%, #f0f0f0 100%);
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-    background: linear-gradient(160deg, #1a1a1a 0%, #141414 100%);
-  }
 }
 
 .container {
@@ -109,11 +91,6 @@ header h1 {
   padding: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  .lang-switcher-dropdown {
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
-  }
-}
 
 .lang-switcher-dropdown a {
   display: block;
@@ -191,11 +168,6 @@ header h1 {
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
 }
 
-@media (prefers-color-scheme: dark) {
-  .grinder-dropdown {
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
-  }
-}
 
 .grinder-dropdown li {
   padding: 0.5rem 0.75rem;
