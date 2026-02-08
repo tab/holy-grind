@@ -47,7 +47,7 @@ header h1 {
 /* Language switcher */
 .lang-switcher {
   position: absolute;
-  top: 1rem;
+  top: calc(1rem + env(safe-area-inset-top, 0px));
   right: 1rem;
 }
 
