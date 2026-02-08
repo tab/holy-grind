@@ -11,6 +11,9 @@ node_modules/
 # dist
 dist/
 
+# coverage
+coverage/
+
 # data
 data/
 
