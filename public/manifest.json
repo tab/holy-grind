@@ -1,0 +1,22 @@
+{
+  "name": "Holy Grind",
+  "short_name": "Holy Grind",
+  "description": "Coffee grinder settings converter",
+  "start_url": "/holy-grind/",
+  "scope": "/holy-grind/",
+  "display": "standalone",
+  "background_color": "#fafafa",
+  "theme_color": "#b91c1c",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

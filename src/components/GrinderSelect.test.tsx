@@ -42,7 +42,7 @@ describe('GrinderSelect', () => {
     await user.type(input, 'Text');
 
     expect(screen.getAllByRole('option')).toHaveLength(1);
-    expect(screen.getByText('Text Grinder')).toBeInTheDocument();
+    expect(screen.getByRole('option')).toHaveTextContent('Text Grinder');
   });
 
   it('selects grinder on click and closes dropdown', async () => {
@@ -53,7 +53,7 @@ describe('GrinderSelect', () => {
     );
 
     await user.click(screen.getByPlaceholderText('converter.grinder.search'));
-    await user.click(screen.getByText('Numeric Grinder'));
+    await user.click(screen.getByText((_, el) => el?.tagName === 'LI' && el?.textContent === 'NumericGrinder'));
 
     expect(onChange).toHaveBeenCalledWith(numericGrinder);
     expect(screen.queryByRole('listbox')).not.toBeInTheDocument();

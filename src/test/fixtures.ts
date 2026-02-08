@@ -4,6 +4,8 @@ import type { NumericGrinder, TextGrinder, GrinderData } from '@/utils/convert';
 export const numericGrinder: NumericGrinder = {
   id: 'numeric-1',
   name: 'Numeric Grinder',
+  brand: 'Numeric',
+  model: 'Grinder',
   numeric: true,
   settings: [1, 2, 3, 4, 5],
 };
@@ -12,6 +14,8 @@ export const numericGrinder: NumericGrinder = {
 export const numericGrinder2: NumericGrinder = {
   id: 'numeric-2',
   name: 'Numeric Grinder 2',
+  brand: 'Numeric',
+  model: 'Grinder 2',
   numeric: true,
   settings: [10, 20, 30, 40, 50],
 };
@@ -20,6 +24,8 @@ export const numericGrinder2: NumericGrinder = {
 export const textGrinder: TextGrinder = {
   id: 'text-1',
   name: 'Text Grinder',
+  brand: '',
+  model: 'Text Grinder',
   numeric: false,
   settings: [
     null,
@@ -34,6 +40,8 @@ export const textGrinder: TextGrinder = {
 export const noOverlapGrinder: NumericGrinder = {
   id: 'no-overlap',
   name: 'No Overlap Grinder',
+  brand: '',
+  model: 'No Overlap Grinder',
   numeric: true,
   settings: [
     null, null, null, null, null,
@@ -46,6 +54,8 @@ export const noOverlapGrinder: NumericGrinder = {
 export const emptyGrinder: NumericGrinder = {
   id: 'empty',
   name: 'Empty Grinder',
+  brand: '',
+  model: 'Empty Grinder',
   numeric: true,
   settings: [null, null, null],
 };

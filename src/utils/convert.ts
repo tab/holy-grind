@@ -1,6 +1,8 @@
 export interface NumericGrinder {
   id: string;
   name: string;
+  brand: string;
+  model: string;
   numeric: true;
   settings: (number | null)[];
 }
@@ -13,6 +15,8 @@ export interface TextSetting {
 export interface TextGrinder {
   id: string;
   name: string;
+  brand: string;
+  model: string;
   numeric: false;
   settings: (TextSetting | null)[];
 }

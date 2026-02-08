@@ -3,19 +3,21 @@
   "source": "hg-08-02-2026.csv",
   "grinders": [
     {
-      "id": "mahlk-nig-tanzania-disc-0-9",
-      "name": "Mahlkönig Tanzania Disc 0-9",
+      "id": "1zpresso-je",
+      "name": "1Zpresso JE",
+      "brand": "1Zpresso",
+      "model": "JE",
       "numeric": true,
       "settings": [
-        4,
-        4.5,
-        5,
-        5.5,
-        6,
-        6.5,
-        7,
-        7.5,
-        8,
+        60,
+        65,
+        70,
+        75,
+        80,
+        85,
+        90,
+        95,
+        100,
         null,
         null,
         null,
@@ -31,50 +33,24 @@
       ]
     },
     {
-      "id": "mahlk-nig-ek43-turkish-disc-1-11",
-      "name": "Mahlkönig EK43 (turkish) Disc 1-11",
+      "id": "1zpresso-jx",
+      "name": "1Zpresso JX",
+      "brand": "1Zpresso",
+      "model": "JX",
       "numeric": true,
       "settings": [
-        4,
-        4.5,
-        5,
-        5.5,
-        6,
-        6.5,
-        7,
-        7.5,
-        8,
-        8.5,
-        9,
-        9.5,
-        10,
-        10.5,
-        11,
+        42,
+        47,
+        52,
+        57,
+        62,
+        67,
+        72,
+        77,
+        82,
         null,
         null,
         null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "mahlk-nig-ek43coffee-disc-1-11",
-      "name": "Mahlkönig EK43(coffee) Disc 1-11",
-      "numeric": true,
-      "settings": [
-        4,
-        4.5,
-        5,
-        5.5,
-        6,
-        6.5,
-        7,
-        7.5,
-        8,
-        8.5,
-        9,
-        9.5,
         null,
         null,
         null,
@@ -87,12 +63,312 @@
       ]
     },
     {
-      "id": "mahlk-nig-ek43coffee-disc-1-16",
-      "name": "Mahlkönig EK43(coffee) Disc 1-16",
+      "id": "1zpresso-k-plus",
+      "name": "1Zpresso K-Plus",
+      "brand": "1Zpresso",
+      "model": "K-Plus",
+      "numeric": true,
+      "settings": [
+        30,
+        40,
+        45,
+        50,
+        55,
+        60,
+        65,
+        70,
+        75,
+        80,
+        85,
+        90,
+        100,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "1zpresso-q2",
+      "name": "1Zpresso Q2",
+      "brand": "1Zpresso",
+      "model": "Q2",
+      "numeric": true,
+      "settings": [
+        39,
+        42,
+        45,
+        48,
+        51,
+        54,
+        57,
+        60,
+        63,
+        66,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "anfim-drogheria",
+      "name": "Anfim Drogheria",
+      "brand": "Anfim",
+      "model": "Drogheria",
       "numeric": true,
       "settings": [
         3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        19,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "baratza-encore",
+      "name": "Baratza Encore",
+      "brand": "Baratza",
+      "model": "Encore",
+      "numeric": true,
+      "settings": [
+        3,
+        5,
+        7,
+        10,
+        11,
+        12,
+        14,
+        16,
+        18,
+        20,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "baratza-forte",
+      "name": "Baratza Forte",
+      "brand": "Baratza",
+      "model": "Forte",
+      "numeric": false,
+      "settings": [
+        {
+          "value": 1,
+          "display": "2A"
+        },
+        {
+          "value": 2,
+          "display": "2F"
+        },
+        {
+          "value": 3,
+          "display": "2K"
+        },
+        {
+          "value": 4,
+          "display": "2P"
+        },
+        {
+          "value": 5,
+          "display": "3А"
+        },
+        {
+          "value": 6,
+          "display": "3F"
+        },
+        {
+          "value": 7,
+          "display": "3K"
+        },
+        {
+          "value": 8,
+          "display": "3P"
+        },
+        {
+          "value": 9,
+          "display": "4A"
+        },
+        {
+          "value": 10,
+          "display": "4F"
+        },
+        {
+          "value": 11,
+          "display": "4K"
+        },
+        {
+          "value": 12,
+          "display": "4P"
+        },
+        {
+          "value": 13,
+          "display": "5A"
+        },
+        {
+          "value": 14,
+          "display": "5F"
+        },
+        {
+          "value": 15,
+          "display": "5K"
+        },
+        {
+          "value": 16,
+          "display": "5P"
+        },
+        {
+          "value": 17,
+          "display": "6A"
+        },
+        {
+          "value": 18,
+          "display": "6F"
+        },
+        {
+          "value": 19,
+          "display": "6K"
+        },
+        {
+          "value": 20,
+          "display": "6P"
+        },
+        null
+      ]
+    },
+    {
+      "id": "baratza-sette-30",
+      "name": "Baratza Sette 30",
+      "brand": "Baratza",
+      "model": "Sette 30",
+      "numeric": true,
+      "settings": [
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "baratza-virtuoso",
+      "name": "Baratza Virtuoso+",
+      "brand": "Baratza",
+      "model": "Virtuoso+",
+      "numeric": true,
+      "settings": [
         4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "chestnut-c3-esp",
+      "name": "Chestnut c3 ESP",
+      "brand": "Timemore",
+      "model": "Chestnut c3 ESP",
+      "numeric": true,
+      "settings": [
+        25,
+        30,
+        33,
+        35,
+        37,
+        40,
+        45,
+        47,
+        50,
+        53,
+        55,
+        57,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "chinese-clone-ek-43",
+      "name": "Chinese clone EK-43",
+      "brand": "",
+      "model": "Chinese clone EK-43",
+      "numeric": true,
+      "settings": [
         5,
         6,
         7,
@@ -104,36 +380,10 @@
         13,
         14,
         15,
-        16,
         null,
         null,
         null,
         null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "mazzer-zm-espresso-burrs",
-      "name": "Mazzer ZM (espresso burrs)",
-      "numeric": true,
-      "settings": [
-        400,
-        425,
-        450,
-        475,
-        500,
-        525,
-        550,
-        575,
-        600,
-        625,
-        650,
-        675,
-        700,
-        725,
-        750,
         null,
         null,
         null,
@@ -145,6 +395,8 @@
     {
       "id": "comandante-red-clix",
       "name": "Comandante (Red clix)",
+      "brand": "Comandante",
+      "model": "(Red clix)",
       "numeric": true,
       "settings": [
         15,
@@ -171,8 +423,544 @@
       ]
     },
     {
+      "id": "comandante-c40",
+      "name": "Comandante C40",
+      "brand": "Comandante",
+      "model": "C40",
+      "numeric": true,
+      "settings": [
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "df64",
+      "name": "DF64",
+      "brand": "DF64",
+      "model": "",
+      "numeric": true,
+      "settings": [
+        25,
+        30,
+        35,
+        40,
+        45,
+        50,
+        55,
+        60,
+        65,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "df83v",
+      "name": "DF83V",
+      "brand": "DF83V",
+      "model": "",
+      "numeric": true,
+      "settings": [
+        20,
+        25,
+        28,
+        30,
+        35,
+        38,
+        44,
+        47,
+        50,
+        53,
+        56,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ditting",
+      "name": "Ditting",
+      "brand": "Ditting",
+      "model": "",
+      "numeric": true,
+      "settings": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ditting-807-lab-sweet",
+      "name": "Ditting 807 LAB SWEET",
+      "brand": "Ditting",
+      "model": "807 LAB SWEET",
+      "numeric": true,
+      "settings": [
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ditting-for-drip",
+      "name": "Ditting for drip",
+      "brand": "Ditting",
+      "model": "for drip",
+      "numeric": true,
+      "settings": [
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "eureka-atom-pro",
+      "name": "Eureka Atom Pro",
+      "brand": "Eureka",
+      "model": "Atom Pro",
+      "numeric": true,
+      "settings": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "eureka-drogheria",
+      "name": "Eureka Drogheria",
+      "brand": "Eureka",
+      "model": "Drogheria",
+      "numeric": true,
+      "settings": [
+        2,
+        2.5,
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "eureka-mignon-brew-pro",
+      "name": "Eureka Mignon Brew Pro",
+      "brand": "Eureka",
+      "model": "Mignon Brew Pro",
+      "numeric": true,
+      "settings": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "eureka-mignon-burrs-50mm-filtro-pro",
+      "name": "Eureka Mignon burrs 50mm Filtro Pro",
+      "brand": "Eureka",
+      "model": "Mignon burrs 50mm Filtro Pro",
+      "numeric": false,
+      "settings": [
+        {
+          "value": 1,
+          "display": "1st circle/4"
+        },
+        {
+          "value": 2,
+          "display": "1st circle/5"
+        },
+        {
+          "value": 3,
+          "display": "2nd circle/0"
+        },
+        {
+          "value": 4,
+          "display": "2nd circle/1"
+        },
+        {
+          "value": 5,
+          "display": "2nd circle/2"
+        },
+        {
+          "value": 6,
+          "display": "2nd circle/3"
+        },
+        {
+          "value": 7,
+          "display": "2nd circle/4"
+        },
+        {
+          "value": 8,
+          "display": "2nd circle/5"
+        },
+        {
+          "value": 9,
+          "display": "3rd circle/0"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "eureka-mignon-burrs-50mm-filtro-pro-new",
+      "name": "Eureka Mignon burrs 50mm Filtro Pro NEW",
+      "brand": "Eureka",
+      "model": "Mignon burrs 50mm Filtro Pro NEW",
+      "numeric": false,
+      "settings": [
+        {
+          "value": 1,
+          "display": "1st circle/4"
+        },
+        {
+          "value": 2,
+          "display": "1st circle/5"
+        },
+        {
+          "value": 3,
+          "display": "2nd circle/0"
+        },
+        {
+          "value": 4,
+          "display": "2nd circle/1"
+        },
+        {
+          "value": 5,
+          "display": "2nd circle/2"
+        },
+        {
+          "value": 6,
+          "display": "2nd circle/3"
+        },
+        {
+          "value": 7,
+          "display": "2nd circle/4"
+        },
+        {
+          "value": 8,
+          "display": "2nd circle/5"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "eureka-mignon-crono",
+      "name": "EUREKA MIGNON CRONO",
+      "brand": "Eureka",
+      "model": "MIGNON CRONO",
+      "numeric": false,
+      "settings": [
+        {
+          "value": 1,
+          "display": "1 circle 4"
+        },
+        {
+          "value": 2,
+          "display": "1 circle 4,5"
+        },
+        {
+          "value": 3,
+          "display": "1 circle 5"
+        },
+        {
+          "value": 4,
+          "display": "1 circle 5,5"
+        },
+        {
+          "value": 5,
+          "display": "2 circle 0"
+        },
+        {
+          "value": 6,
+          "display": "2 circle 0,5"
+        },
+        {
+          "value": 7,
+          "display": "2 circle 1"
+        },
+        {
+          "value": 8,
+          "display": "2 circle 1,5"
+        },
+        {
+          "value": 9,
+          "display": "2 circle 2"
+        },
+        {
+          "value": 10,
+          "display": "2 circle 2,5"
+        },
+        {
+          "value": 11,
+          "display": "2 circle 3"
+        },
+        {
+          "value": 12,
+          "display": "2 circle 3,5"
+        },
+        {
+          "value": 13,
+          "display": "2 circle 4"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "feld47",
+      "name": "Feld47",
+      "brand": "Knock",
+      "model": "Feld47",
+      "numeric": false,
+      "settings": [
+        {
+          "value": 1,
+          "display": "2 full rotations + 1"
+        },
+        {
+          "value": 2,
+          "display": "2 full rotations + 2"
+        },
+        {
+          "value": 3,
+          "display": "2 full rotations + 3"
+        },
+        {
+          "value": 4,
+          "display": "2 full rotations + 4"
+        },
+        {
+          "value": 5,
+          "display": "2 full rotations + 5"
+        },
+        {
+          "value": 6,
+          "display": "2 full rotations + 6"
+        },
+        {
+          "value": 7,
+          "display": "2 full rotations + 7"
+        },
+        {
+          "value": 8,
+          "display": "2 full rotations + 8"
+        },
+        {
+          "value": 9,
+          "display": "2 full rotation + 9"
+        },
+        {
+          "value": 10,
+          "display": "2 full rotations + 10"
+        },
+        {
+          "value": 11,
+          "display": "2 full rotations + 11"
+        },
+        {
+          "value": 12,
+          "display": "2 full rotations + 12"
+        },
+        {
+          "value": 13,
+          "display": "3 full rotations + 1"
+        },
+        {
+          "value": 14,
+          "display": "3 full rotations + 2"
+        },
+        {
+          "value": 15,
+          "display": "3 full rotations + 3"
+        },
+        {
+          "value": 16,
+          "display": "3 full rotations + 4"
+        },
+        {
+          "value": 17,
+          "display": "3 full rotations + 5"
+        },
+        {
+          "value": 18,
+          "display": "3 full rotations + 6"
+        },
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "feldgrind-2",
       "name": "Feldgrind 2",
+      "brand": "Knock",
+      "model": "Feldgrind 2",
       "numeric": false,
       "settings": [
         {
@@ -250,8 +1038,388 @@
       ]
     },
     {
+      "id": "fellow-ode",
+      "name": "Fellow Ode",
+      "brand": "Fellow",
+      "model": "Ode",
+      "numeric": true,
+      "settings": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "fellow-opus",
+      "name": "Fellow Opus",
+      "brand": "Fellow",
+      "model": "Opus",
+      "numeric": true,
+      "settings": [
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "fiorenzato-f4-filter",
+      "name": "Fiorenzato F4 Filter",
+      "brand": "Fiorenzato",
+      "model": "F4 Filter",
+      "numeric": false,
+      "settings": [
+        {
+          "value": 1,
+          "display": "1(FILTER)"
+        },
+        {
+          "value": 2,
+          "display": "5"
+        },
+        {
+          "value": 3,
+          "display": "10"
+        },
+        {
+          "value": 4,
+          "display": "15"
+        },
+        {
+          "value": 5,
+          "display": "20"
+        },
+        {
+          "value": 6,
+          "display": "25"
+        },
+        {
+          "value": 7,
+          "display": "30"
+        },
+        {
+          "value": 8,
+          "display": "35"
+        },
+        {
+          "value": 9,
+          "display": "40"
+        },
+        {
+          "value": 10,
+          "display": "45 (FRENCH PRESS)"
+        },
+        {
+          "value": 11,
+          "display": "50 (FRENCH PRESS)"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "hario-coffee-grinder",
+      "name": "Hario Coffee Grinder",
+      "brand": "Hario",
+      "model": "Coffee Grinder",
+      "numeric": true,
+      "settings": [
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "hero",
+      "name": "Hero",
+      "brand": "Hero",
+      "model": "",
+      "numeric": true,
+      "settings": [
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "kingrinder-k2-ar",
+      "name": "KINGrinder K2-AR",
+      "brand": "KINGrinder",
+      "model": "K2-AR",
+      "numeric": false,
+      "settings": [
+        {
+          "value": 1,
+          "display": "2nd circle/ 5 value"
+        },
+        {
+          "value": 2,
+          "display": "2nd circle/ 6 value"
+        },
+        {
+          "value": 3,
+          "display": "2nd circle/ 7 value"
+        },
+        {
+          "value": 4,
+          "display": "2nd circle/ 8 value"
+        },
+        {
+          "value": 5,
+          "display": "2nd rotation 9"
+        },
+        {
+          "value": 6,
+          "display": "3rd circle/ 0 value"
+        },
+        {
+          "value": 7,
+          "display": "3rd circle/ 1 value"
+        },
+        {
+          "value": 8,
+          "display": "3rd circle/ 2 value"
+        },
+        {
+          "value": 9,
+          "display": "3rd circle/ 3 value"
+        },
+        {
+          "value": 10,
+          "display": "3rd circle/ 4 value"
+        },
+        {
+          "value": 11,
+          "display": "3rd circle/ 5 value"
+        },
+        {
+          "value": 12,
+          "display": "3rd circle/ 6 value"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "kingrinder-k4",
+      "name": "KINGrinder K4",
+      "brand": "KINGrinder",
+      "model": "K4",
+      "numeric": false,
+      "settings": [
+        {
+          "value": 1,
+          "display": "1st rotation 50"
+        },
+        {
+          "value": 2,
+          "display": "2nd rotation 0"
+        },
+        {
+          "value": 3,
+          "display": "2nd rotation 10"
+        },
+        {
+          "value": 4,
+          "display": "2nd rotation 20"
+        },
+        {
+          "value": 5,
+          "display": "2nd rotation 30"
+        },
+        {
+          "value": 6,
+          "display": "2nd rotation 40"
+        },
+        {
+          "value": 7,
+          "display": "2nd rotation 50"
+        },
+        {
+          "value": 8,
+          "display": "3rd rotation 0"
+        },
+        {
+          "value": 9,
+          "display": "3rd rotation 10"
+        },
+        {
+          "value": 10,
+          "display": "3rd rotation 20"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "kingrinder-k6",
+      "name": "KINGrinder K6",
+      "brand": "KINGrinder",
+      "model": "K6",
+      "numeric": false,
+      "settings": [
+        {
+          "value": 1,
+          "display": "1st rotation 50"
+        },
+        {
+          "value": 2,
+          "display": "1st rotation 55"
+        },
+        {
+          "value": 3,
+          "display": "2nd rotation 0"
+        },
+        {
+          "value": 4,
+          "display": "2nd rotation 5"
+        },
+        {
+          "value": 5,
+          "display": "2nd rotation 10"
+        },
+        {
+          "value": 6,
+          "display": "2nd rotation 15"
+        },
+        {
+          "value": 7,
+          "display": "2nd rotation 20"
+        },
+        {
+          "value": 8,
+          "display": "2nd rotation 25"
+        },
+        {
+          "value": 9,
+          "display": "2nd rotation 30"
+        },
+        {
+          "value": 10,
+          "display": "2nd rotation 35"
+        },
+        {
+          "value": 11,
+          "display": "2nd rotation 40"
+        },
+        {
+          "value": 12,
+          "display": "2nd rotation 45"
+        },
+        {
+          "value": 13,
+          "display": "2nd rotation 50"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "kinu-m47-phoenix",
       "name": "Kinu m47 phoenix",
+      "brand": "Kinu",
+      "model": "m47 phoenix",
       "numeric": false,
       "settings": [
         {
@@ -341,49 +1509,23 @@
       ]
     },
     {
-      "id": "timemore-slim",
-      "name": "Timemore Slim",
+      "id": "lagom-p64",
+      "name": "Lagom P64",
+      "brand": "Lagom",
+      "model": "P64",
       "numeric": true,
       "settings": [
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
         20,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "timemore-nano",
-      "name": "Timemore Nano",
-      "numeric": true,
-      "settings": [
-        10,
-        12,
-        14,
-        16,
-        18,
-        20,
-        22,
-        24,
-        null,
-        null,
-        null,
+        25,
+        30,
+        35,
+        40,
+        45,
+        50,
+        55,
+        60,
+        65,
+        70,
         null,
         null,
         null,
@@ -397,104 +1539,22 @@
       ]
     },
     {
-      "id": "timemore-chestnut-g1-plus",
-      "name": "Timemore Chestnut G1 Plus",
+      "id": "mahlk-nig",
+      "name": "Mahlkönig",
+      "brand": "Mahlkönig",
+      "model": "",
       "numeric": true,
       "settings": [
-        10,
-        12,
-        14,
-        16,
-        18,
-        20,
-        22,
-        24,
-        26,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "timemore-chestnut-c2",
-      "name": "Timemore Chestnut C2",
-      "numeric": true,
-      "settings": [
-        10,
-        12,
-        14,
-        16,
-        18,
-        20,
-        22,
-        24,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "ditting",
-      "name": "Ditting",
-      "numeric": true,
-      "settings": [
-        1,
-        2,
-        3,
         4,
         5,
         6,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "baratza-encore",
-      "name": "Baratza Encore",
-      "numeric": true,
-      "settings": [
-        3,
-        5,
         7,
+        8,
+        9,
         10,
         11,
         12,
-        14,
-        16,
-        18,
-        20,
+        13,
         null,
         null,
         null,
@@ -509,20 +1569,142 @@
       ]
     },
     {
-      "id": "baratza-virtuoso",
-      "name": "Baratza Virtuoso+",
+      "id": "mahlk-nig-ek43-turkish-disc-1-11",
+      "name": "Mahlkönig EK43 (turkish) Disc 1-11",
+      "brand": "Mahlkönig",
+      "model": "EK43 (turkish) Disc 1-11",
       "numeric": true,
       "settings": [
         4,
+        4.5,
+        5,
+        5.5,
         6,
+        6.5,
+        7,
+        7.5,
         8,
+        8.5,
+        9,
+        9.5,
         10,
+        10.5,
+        11,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "mahlk-nig-ek43-iconcoffee-disc-1-16",
+      "name": "Mahlkönig EK43 ICON(coffee) Disc 1-16",
+      "brand": "Mahlkönig",
+      "model": "EK43 ICON(coffee) Disc 1-16",
+      "numeric": true,
+      "settings": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
         12,
+        13,
         14,
+        15,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "mahlk-nig-ek43coffee-disc-1-11",
+      "name": "Mahlkönig EK43(coffee) Disc 1-11",
+      "brand": "Mahlkönig",
+      "model": "EK43(coffee) Disc 1-11",
+      "numeric": true,
+      "settings": [
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "mahlk-nig-ek43coffee-disc-1-16",
+      "name": "Mahlkönig EK43(coffee) Disc 1-16",
+      "brand": "Mahlkönig",
+      "model": "EK43(coffee) Disc 1-16",
+      "numeric": true,
+      "settings": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
         16,
-        18,
-        20,
-        22,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "mahlk-nig-tanzania-disc-0-9",
+      "name": "Mahlkönig Tanzania Disc 0-9",
+      "brand": "Mahlkönig",
+      "model": "Tanzania Disc 0-9",
+      "numeric": true,
+      "settings": [
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        null,
         null,
         null,
         null,
@@ -537,248 +1719,22 @@
       ]
     },
     {
-      "id": "baratza-sette-30",
-      "name": "Baratza Sette 30",
+      "id": "mavo-wizard-coffee-grinder",
+      "name": "Mavo Wizard Coffee Grinder",
+      "brand": "Mavo",
+      "model": "Wizard Coffee Grinder",
       "numeric": true,
       "settings": [
-        9,
-        11,
-        13,
-        15,
-        17,
-        19,
+        18,
+        20,
         21,
+        22,
         23,
         25,
         27,
         29,
-        31,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "baratza-forte",
-      "name": "Baratza Forte",
-      "numeric": false,
-      "settings": [
-        {
-          "value": 1,
-          "display": "2A"
-        },
-        {
-          "value": 2,
-          "display": "2F"
-        },
-        {
-          "value": 3,
-          "display": "2K"
-        },
-        {
-          "value": 4,
-          "display": "2P"
-        },
-        {
-          "value": 5,
-          "display": "3А"
-        },
-        {
-          "value": 6,
-          "display": "3F"
-        },
-        {
-          "value": 7,
-          "display": "3K"
-        },
-        {
-          "value": 8,
-          "display": "3P"
-        },
-        {
-          "value": 9,
-          "display": "4A"
-        },
-        {
-          "value": 10,
-          "display": "4F"
-        },
-        {
-          "value": 11,
-          "display": "4K"
-        },
-        {
-          "value": 12,
-          "display": "4P"
-        },
-        {
-          "value": 13,
-          "display": "5A"
-        },
-        {
-          "value": 14,
-          "display": "5F"
-        },
-        {
-          "value": 15,
-          "display": "5K"
-        },
-        {
-          "value": 16,
-          "display": "5P"
-        },
-        {
-          "value": 17,
-          "display": "6A"
-        },
-        {
-          "value": 18,
-          "display": "6F"
-        },
-        {
-          "value": 19,
-          "display": "6K"
-        },
-        {
-          "value": 20,
-          "display": "6P"
-        },
-        null
-      ]
-    },
-    {
-      "id": "fellow-ode",
-      "name": "Fellow Ode",
-      "numeric": true,
-      "settings": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "1zpresso-jx",
-      "name": "1Zpresso JX",
-      "numeric": true,
-      "settings": [
-        42,
-        47,
-        52,
-        57,
-        62,
-        67,
-        72,
-        77,
-        82,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "1zpresso-je",
-      "name": "1Zpresso JE",
-      "numeric": true,
-      "settings": [
-        60,
-        65,
-        70,
-        75,
-        80,
-        85,
-        90,
-        95,
-        100,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "wilfa-svart-nymalt",
-      "name": "Wilfa Svart Nymalt",
-      "numeric": true,
-      "settings": [
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "wilfa-svart-uniform",
-      "name": "Wilfa Svart Uniform",
-      "numeric": true,
-      "settings": [
-        12,
-        14,
-        16,
-        18,
-        20,
-        22,
-        24,
-        26,
-        28,
         30,
+        31,
         32,
         null,
         null,
@@ -793,8 +1749,130 @@
       ]
     },
     {
+      "id": "mazzer-zm-espresso-burrs",
+      "name": "Mazzer ZM (espresso burrs)",
+      "brand": "Mazzer",
+      "model": "ZM (espresso burrs)",
+      "numeric": true,
+      "settings": [
+        400,
+        425,
+        450,
+        475,
+        500,
+        525,
+        550,
+        575,
+        600,
+        625,
+        650,
+        675,
+        700,
+        725,
+        750,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "mhw-3bomber-blade-r3",
+      "name": "MHW-3BOMBER Blade R3",
+      "brand": "MHW-3BOMBER",
+      "model": "Blade R3",
+      "numeric": true,
+      "settings": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "mhw-3bomber-racing-m1",
+      "name": "MHW-3BOMBER Racing M1",
+      "brand": "MHW-3BOMBER",
+      "model": "Racing M1",
+      "numeric": true,
+      "settings": [
+        20,
+        23,
+        25,
+        26,
+        28,
+        29,
+        31,
+        34,
+        35,
+        36,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "mischef-electric-mini",
+      "name": "Mischef Electric Mini",
+      "brand": "Mischef",
+      "model": "Electric Mini",
+      "numeric": true,
+      "settings": [
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12,
+        12.5,
+        13,
+        13.5,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        null
+      ]
+    },
+    {
       "id": "niche-zero",
       "name": "Niche Zero",
+      "brand": "Niche",
+      "model": "Zero",
       "numeric": true,
       "settings": [
         26,
@@ -821,370 +1899,10 @@
       ]
     },
     {
-      "id": "eureka-atom-pro",
-      "name": "Eureka Atom Pro",
-      "numeric": true,
-      "settings": [
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "eureka-drogheria",
-      "name": "Eureka Drogheria",
-      "numeric": true,
-      "settings": [
-        2,
-        2.5,
-        3,
-        3.5,
-        4,
-        4.5,
-        5,
-        5.5,
-        6,
-        6.5,
-        7,
-        7.5,
-        8,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "eureka-mignon-brew-pro",
-      "name": "Eureka Mignon Brew Pro",
-      "numeric": true,
-      "settings": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "eureka-mignon-burrs-50mm-filtro-pro",
-      "name": "Eureka Mignon burrs 50mm Filtro Pro",
-      "numeric": false,
-      "settings": [
-        {
-          "value": 1,
-          "display": "1st circle/4"
-        },
-        {
-          "value": 2,
-          "display": "1st circle/5"
-        },
-        {
-          "value": 3,
-          "display": "2nd circle/0"
-        },
-        {
-          "value": 4,
-          "display": "2nd circle/1"
-        },
-        {
-          "value": 5,
-          "display": "2nd circle/2"
-        },
-        {
-          "value": 6,
-          "display": "2nd circle/3"
-        },
-        {
-          "value": 7,
-          "display": "2nd circle/4"
-        },
-        {
-          "value": 8,
-          "display": "2nd circle/5"
-        },
-        {
-          "value": 9,
-          "display": "3rd circle/0"
-        },
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "eureka-mignon-burrs-50mm-filtro-pro-new",
-      "name": "Eureka Mignon burrs 50mm Filtro Pro NEW",
-      "numeric": false,
-      "settings": [
-        {
-          "value": 1,
-          "display": "1st circle/4"
-        },
-        {
-          "value": 2,
-          "display": "1st circle/5"
-        },
-        {
-          "value": 3,
-          "display": "2nd circle/0"
-        },
-        {
-          "value": 4,
-          "display": "2nd circle/1"
-        },
-        {
-          "value": 5,
-          "display": "2nd circle/2"
-        },
-        {
-          "value": 6,
-          "display": "2nd circle/3"
-        },
-        {
-          "value": 7,
-          "display": "2nd circle/4"
-        },
-        {
-          "value": 8,
-          "display": "2nd circle/5"
-        },
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "feld47",
-      "name": "Feld47",
-      "numeric": false,
-      "settings": [
-        {
-          "value": 1,
-          "display": "2 full rotations + 1"
-        },
-        {
-          "value": 2,
-          "display": "2 full rotations + 2"
-        },
-        {
-          "value": 3,
-          "display": "2 full rotations + 3"
-        },
-        {
-          "value": 4,
-          "display": "2 full rotations + 4"
-        },
-        {
-          "value": 5,
-          "display": "2 full rotations + 5"
-        },
-        {
-          "value": 6,
-          "display": "2 full rotations + 6"
-        },
-        {
-          "value": 7,
-          "display": "2 full rotations + 7"
-        },
-        {
-          "value": 8,
-          "display": "2 full rotations + 8"
-        },
-        {
-          "value": 9,
-          "display": "2 full rotation + 9"
-        },
-        {
-          "value": 10,
-          "display": "2 full rotations + 10"
-        },
-        {
-          "value": 11,
-          "display": "2 full rotations + 11"
-        },
-        {
-          "value": 12,
-          "display": "2 full rotations + 12"
-        },
-        {
-          "value": 13,
-          "display": "3 full rotations + 1"
-        },
-        {
-          "value": 14,
-          "display": "3 full rotations + 2"
-        },
-        {
-          "value": 15,
-          "display": "3 full rotations + 3"
-        },
-        {
-          "value": 16,
-          "display": "3 full rotations + 4"
-        },
-        {
-          "value": 17,
-          "display": "3 full rotations + 5"
-        },
-        {
-          "value": 18,
-          "display": "3 full rotations + 6"
-        },
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "ditting-807-lab-sweet",
-      "name": "Ditting 807 LAB SWEET",
-      "numeric": true,
-      "settings": [
-        4,
-        4.5,
-        5,
-        5.5,
-        6,
-        6.5,
-        7,
-        7.5,
-        8,
-        8.5,
-        9,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "fiorenzato-f4-filter",
-      "name": "Fiorenzato F4 Filter",
-      "numeric": false,
-      "settings": [
-        {
-          "value": 1,
-          "display": "1(FILTER)"
-        },
-        {
-          "value": 2,
-          "display": "5"
-        },
-        {
-          "value": 3,
-          "display": "10"
-        },
-        {
-          "value": 4,
-          "display": "15"
-        },
-        {
-          "value": 5,
-          "display": "20"
-        },
-        {
-          "value": 6,
-          "display": "25"
-        },
-        {
-          "value": 7,
-          "display": "30"
-        },
-        {
-          "value": 8,
-          "display": "35"
-        },
-        {
-          "value": 9,
-          "display": "40"
-        },
-        {
-          "value": 10,
-          "display": "45 (FRENCH PRESS)"
-        },
-        {
-          "value": 11,
-          "display": "50 (FRENCH PRESS)"
-        },
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "omni-cup",
       "name": "Omni Cup",
+      "brand": "",
+      "model": "Omni Cup",
       "numeric": true,
       "settings": [
         20,
@@ -1198,698 +1916,6 @@
         null,
         null,
         null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "xeoleo",
-      "name": "XEOLEO",
-      "numeric": false,
-      "settings": [
-        {
-          "value": 1,
-          "display": "1st circle/11"
-        },
-        {
-          "value": 2,
-          "display": "2nd circle/1"
-        },
-        {
-          "value": 3,
-          "display": "2nd circle/3"
-        },
-        {
-          "value": 4,
-          "display": "2nd circle/5"
-        },
-        {
-          "value": 5,
-          "display": "2nd circle/7"
-        },
-        {
-          "value": 6,
-          "display": "2nd circle/9"
-        },
-        {
-          "value": 7,
-          "display": "2nd circle/11"
-        },
-        {
-          "value": 8,
-          "display": "3rd circle/1"
-        },
-        {
-          "value": 9,
-          "display": "3rd circle/3"
-        },
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "1zpresso-k-plus",
-      "name": "1Zpresso K-Plus",
-      "numeric": true,
-      "settings": [
-        30,
-        40,
-        45,
-        50,
-        55,
-        60,
-        65,
-        70,
-        75,
-        80,
-        85,
-        90,
-        100,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "mahlk-nig",
-      "name": "Mahlkönig",
-      "numeric": true,
-      "settings": [
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "timemore-grinder-go",
-      "name": "Timemore Grinder Go",
-      "numeric": true,
-      "settings": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "saint-anthony",
-      "name": "Saint Anthony",
-      "numeric": true,
-      "settings": [
-        17,
-        20,
-        23,
-        25,
-        27,
-        30,
-        33,
-        35,
-        37,
-        40,
-        43,
-        45,
-        47,
-        50,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "df64",
-      "name": "DF64",
-      "numeric": true,
-      "settings": [
-        25,
-        30,
-        35,
-        40,
-        45,
-        50,
-        55,
-        60,
-        65,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "kingrinder-k4",
-      "name": "KINGrinder K4",
-      "numeric": false,
-      "settings": [
-        {
-          "value": 1,
-          "display": "1st rotation 50"
-        },
-        {
-          "value": 2,
-          "display": "2nd rotation 0"
-        },
-        {
-          "value": 3,
-          "display": "2nd rotation 10"
-        },
-        {
-          "value": 4,
-          "display": "2nd rotation 20"
-        },
-        {
-          "value": 5,
-          "display": "2nd rotation 30"
-        },
-        {
-          "value": 6,
-          "display": "2nd rotation 40"
-        },
-        {
-          "value": 7,
-          "display": "2nd rotation 50"
-        },
-        {
-          "value": 8,
-          "display": "3rd rotation 0"
-        },
-        {
-          "value": 9,
-          "display": "3rd rotation 10"
-        },
-        {
-          "value": 10,
-          "display": "3rd rotation 20"
-        },
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "kingrinder-k2-ar",
-      "name": "KINGrinder K2-AR",
-      "numeric": false,
-      "settings": [
-        {
-          "value": 1,
-          "display": "2nd circle/ 5 value"
-        },
-        {
-          "value": 2,
-          "display": "2nd circle/ 6 value"
-        },
-        {
-          "value": 3,
-          "display": "2nd circle/ 7 value"
-        },
-        {
-          "value": 4,
-          "display": "2nd circle/ 8 value"
-        },
-        {
-          "value": 5,
-          "display": "2nd rotation 9"
-        },
-        {
-          "value": 6,
-          "display": "3rd circle/ 0 value"
-        },
-        {
-          "value": 7,
-          "display": "3rd circle/ 1 value"
-        },
-        {
-          "value": 8,
-          "display": "3rd circle/ 2 value"
-        },
-        {
-          "value": 9,
-          "display": "3rd circle/ 3 value"
-        },
-        {
-          "value": 10,
-          "display": "3rd circle/ 4 value"
-        },
-        {
-          "value": 11,
-          "display": "3rd circle/ 5 value"
-        },
-        {
-          "value": 12,
-          "display": "3rd circle/ 6 value"
-        },
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "1zpresso-q2",
-      "name": "1Zpresso Q2",
-      "numeric": true,
-      "settings": [
-        39,
-        42,
-        45,
-        48,
-        51,
-        54,
-        57,
-        60,
-        63,
-        66,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "timemore-chestnut-c3",
-      "name": "Timemore Chestnut C3",
-      "numeric": true,
-      "settings": [
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "comandante-c40",
-      "name": "Comandante C40",
-      "numeric": true,
-      "settings": [
-        11,
-        13,
-        15,
-        17,
-        19,
-        21,
-        23,
-        25,
-        27,
-        29,
-        31,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "hario-coffee-grinder",
-      "name": "Hario Coffee Grinder",
-      "numeric": true,
-      "settings": [
-        5,
-        7,
-        9,
-        11,
-        13,
-        15,
-        17,
-        19,
-        21,
-        23,
-        25,
-        27,
-        29,
-        31,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "anfim-drogheria",
-      "name": "Anfim Drogheria",
-      "numeric": true,
-      "settings": [
-        3,
-        5,
-        7,
-        9,
-        11,
-        13,
-        15,
-        19,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "varia-vs3",
-      "name": "Varia VS3",
-      "numeric": true,
-      "settings": [
-        5,
-        5.5,
-        6,
-        6.5,
-        7,
-        7.5,
-        8,
-        8.5,
-        9,
-        9.5,
-        10,
-        10.5,
-        11,
-        11.5,
-        12,
-        12.5,
-        13,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "lagom-p64",
-      "name": "Lagom P64",
-      "numeric": true,
-      "settings": [
-        20,
-        25,
-        30,
-        35,
-        40,
-        45,
-        50,
-        55,
-        60,
-        65,
-        70,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "kingrinder-k6",
-      "name": "KINGrinder K6",
-      "numeric": false,
-      "settings": [
-        {
-          "value": 1,
-          "display": "1st rotation 50"
-        },
-        {
-          "value": 2,
-          "display": "1st rotation 55"
-        },
-        {
-          "value": 3,
-          "display": "2nd rotation 0"
-        },
-        {
-          "value": 4,
-          "display": "2nd rotation 5"
-        },
-        {
-          "value": 5,
-          "display": "2nd rotation 10"
-        },
-        {
-          "value": 6,
-          "display": "2nd rotation 15"
-        },
-        {
-          "value": 7,
-          "display": "2nd rotation 20"
-        },
-        {
-          "value": 8,
-          "display": "2nd rotation 25"
-        },
-        {
-          "value": 9,
-          "display": "2nd rotation 30"
-        },
-        {
-          "value": 10,
-          "display": "2nd rotation 35"
-        },
-        {
-          "value": 11,
-          "display": "2nd rotation 40"
-        },
-        {
-          "value": 12,
-          "display": "2nd rotation 45"
-        },
-        {
-          "value": 13,
-          "display": "2nd rotation 50"
-        },
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "hero",
-      "name": "Hero",
-      "numeric": true,
-      "settings": [
-        15,
-        20,
-        25,
-        30,
-        35,
-        40,
-        45,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "timemore-chestnut-x-lite",
-      "name": "Timemore Chestnut X lite",
-      "numeric": true,
-      "settings": [
-        5,
-        7,
-        9,
-        11,
-        13,
-        15,
-        17,
-        19,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "ditting-for-drip",
-      "name": "Ditting for drip",
-      "numeric": true,
-      "settings": [
-        3,
-        3.5,
-        4,
-        4.5,
-        5,
-        5.5,
-        6,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "chinese-clone-ek-43",
-      "name": "Chinese clone EK-43",
-      "numeric": true,
-      "settings": [
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
         null,
         null,
         null,
@@ -1905,6 +1931,8 @@
     {
       "id": "pietro",
       "name": "PIETRO",
+      "brand": "Pietro",
+      "model": "",
       "numeric": false,
       "settings": [
         {
@@ -1967,10 +1995,165 @@
       ]
     },
     {
-      "id": "mahlk-nig-ek43-iconcoffee-disc-1-16",
-      "name": "Mahlkönig EK43 ICON(coffee) Disc 1-16",
+      "id": "saint-anthony",
+      "name": "Saint Anthony",
+      "brand": "Saint Anthony",
+      "model": "",
       "numeric": true,
       "settings": [
+        17,
+        20,
+        23,
+        25,
+        27,
+        30,
+        33,
+        35,
+        37,
+        40,
+        43,
+        45,
+        47,
+        50,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "timemore-chestnut-c2",
+      "name": "Timemore Chestnut C2",
+      "brand": "Timemore",
+      "model": "Chestnut C2",
+      "numeric": true,
+      "settings": [
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "timemore-chestnut-c3",
+      "name": "Timemore Chestnut C3",
+      "brand": "Timemore",
+      "model": "Chestnut C3",
+      "numeric": true,
+      "settings": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "timemore-chestnut-g1-plus",
+      "name": "Timemore Chestnut G1 Plus",
+      "brand": "Timemore",
+      "model": "Chestnut G1 Plus",
+      "numeric": true,
+      "settings": [
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "timemore-chestnut-x-lite",
+      "name": "Timemore Chestnut X lite",
+      "brand": "Timemore",
+      "model": "Chestnut X lite",
+      "numeric": true,
+      "settings": [
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "timemore-grinder-go",
+      "name": "Timemore Grinder Go",
+      "brand": "Timemore",
+      "model": "Grinder Go",
+      "numeric": true,
+      "settings": [
+        1,
+        2,
+        3,
         4,
         5,
         6,
@@ -1979,10 +2162,7 @@
         9,
         10,
         11,
-        12,
-        13,
-        14,
-        15,
+        null,
         null,
         null,
         null,
@@ -1995,121 +2175,28 @@
       ]
     },
     {
-      "id": "eureka-mignon-crono",
-      "name": "EUREKA MIGNON CRONO",
-      "numeric": false,
-      "settings": [
-        {
-          "value": 1,
-          "display": "1 circle 4"
-        },
-        {
-          "value": 2,
-          "display": "1 circle 4,5"
-        },
-        {
-          "value": 3,
-          "display": "1 circle 5"
-        },
-        {
-          "value": 4,
-          "display": "1 circle 5,5"
-        },
-        {
-          "value": 5,
-          "display": "2 circle 0"
-        },
-        {
-          "value": 6,
-          "display": "2 circle 0,5"
-        },
-        {
-          "value": 7,
-          "display": "2 circle 1"
-        },
-        {
-          "value": 8,
-          "display": "2 circle 1,5"
-        },
-        {
-          "value": 9,
-          "display": "2 circle 2"
-        },
-        {
-          "value": 10,
-          "display": "2 circle 2,5"
-        },
-        {
-          "value": 11,
-          "display": "2 circle 3"
-        },
-        {
-          "value": 12,
-          "display": "2 circle 3,5"
-        },
-        {
-          "value": 13,
-          "display": "2 circle 4"
-        },
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "mischef-electric-mini",
-      "name": "Mischef Electric Mini",
+      "id": "timemore-nano",
+      "name": "Timemore Nano",
+      "brand": "Timemore",
+      "model": "Nano",
       "numeric": true,
       "settings": [
-        7,
-        7.5,
-        8,
-        8.5,
-        9,
-        9.5,
         10,
-        10.5,
-        11,
-        11.5,
         12,
-        12.5,
-        13,
-        13.5,
         14,
-        15,
         16,
-        17,
         18,
-        19,
-        null
-      ]
-    },
-    {
-      "id": "mhw-3bomber-blade-r3",
-      "name": "MHW-3BOMBER Blade R3",
-      "numeric": true,
-      "settings": [
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
         20,
-        21,
         22,
+        24,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -2118,106 +2205,24 @@
       ]
     },
     {
-      "id": "fellow-opus",
-      "name": "Fellow Opus",
+      "id": "timemore-slim",
+      "name": "Timemore Slim",
+      "brand": "Timemore",
+      "model": "Slim",
       "numeric": true,
       "settings": [
-        5,
-        5.5,
-        6,
-        6.5,
-        7,
-        7.5,
-        8,
-        8.5,
         9,
-        9.5,
         10,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "df83v",
-      "name": "DF83V",
-      "numeric": true,
-      "settings": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
         20,
-        25,
-        28,
-        30,
-        35,
-        38,
-        44,
-        47,
-        50,
-        53,
-        56,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "chestnut-c3-esp",
-      "name": "Chestnut c3 ESP",
-      "numeric": true,
-      "settings": [
-        25,
-        30,
-        33,
-        35,
-        37,
-        40,
-        45,
-        47,
-        50,
-        53,
-        55,
-        57,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "mhw-3bomber-racing-m1",
-      "name": "MHW-3BOMBER Racing M1",
-      "numeric": true,
-      "settings": [
-        20,
-        23,
-        25,
-        26,
-        28,
-        29,
-        31,
-        34,
-        35,
-        36,
-        null,
-        null,
         null,
         null,
         null,
@@ -2232,6 +2237,8 @@
     {
       "id": "varia-hand-grinder",
       "name": "Varia Hand Grinder",
+      "brand": "Varia",
+      "model": "Hand Grinder",
       "numeric": true,
       "settings": [
         40,
@@ -2258,21 +2265,140 @@
       ]
     },
     {
-      "id": "mavo-wizard-coffee-grinder",
-      "name": "Mavo Wizard Coffee Grinder",
+      "id": "varia-vs3",
+      "name": "Varia VS3",
+      "brand": "Varia",
+      "model": "VS3",
       "numeric": true,
       "settings": [
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12,
+        12.5,
+        13,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "wilfa-svart-nymalt",
+      "name": "Wilfa Svart Nymalt",
+      "brand": "Wilfa",
+      "model": "Svart Nymalt",
+      "numeric": true,
+      "settings": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "wilfa-svart-uniform",
+      "name": "Wilfa Svart Uniform",
+      "brand": "Wilfa",
+      "model": "Svart Uniform",
+      "numeric": true,
+      "settings": [
+        12,
+        14,
+        16,
         18,
         20,
-        21,
         22,
-        23,
-        25,
-        27,
-        29,
+        24,
+        26,
+        28,
         30,
-        31,
         32,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "xeoleo",
+      "name": "XEOLEO",
+      "brand": "XEOLEO",
+      "model": "",
+      "numeric": false,
+      "settings": [
+        {
+          "value": 1,
+          "display": "1st circle/11"
+        },
+        {
+          "value": 2,
+          "display": "2nd circle/1"
+        },
+        {
+          "value": 3,
+          "display": "2nd circle/3"
+        },
+        {
+          "value": 4,
+          "display": "2nd circle/5"
+        },
+        {
+          "value": 5,
+          "display": "2nd circle/7"
+        },
+        {
+          "value": 6,
+          "display": "2nd circle/9"
+        },
+        {
+          "value": 7,
+          "display": "2nd circle/11"
+        },
+        {
+          "value": 8,
+          "display": "3rd circle/1"
+        },
+        {
+          "value": 9,
+          "display": "3rd circle/3"
+        },
+        null,
+        null,
         null,
         null,
         null,
