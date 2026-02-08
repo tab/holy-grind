@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v0.2.1
+
+### Fixes
+- **fix:** Adjust container padding for safe area insets
+- **fix:** Disable dark mode
+
 ## v0.2.0
 
 ### Features
