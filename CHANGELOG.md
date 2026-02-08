@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## v0.2.0
+
+### Features
+- **feat:** PWA support — installable from Safari/Chrome
+- **feat:** Glassmorphism UI redesign
+- **feat:** Brand/model split with two-line dropdown
+
+### Fixes
+- **fix:** Case-insensitive brand matching and alias brands
+- **fix:** Dropdown and input visibility on light/dark backgrounds
+
 ## v0.1.1
 
 ### Chore
