@@ -1,5 +1,6 @@
-import { useState, useMemo } from 'react';
+import { useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
+import { useFormik } from 'formik';
 import type { Grinder } from '@/utils/convert';
 import { convert, getRange, parseDecimal } from '@/utils/convert';
 import GrinderSelect from '@/components/GrinderSelect';
@@ -9,11 +10,21 @@ interface ConverterProps {
   grinders: Grinder[];
 }
 
+interface FormValues {
+  source: Grinder | null;
+  target: Grinder | null;
+  input: string;
+}
+
 export default function Converter({ grinders }: ConverterProps) {
   const { t } = useTranslation();
-  const [source, setSource] = useState<Grinder | null>(null);
-  const [target, setTarget] = useState<Grinder | null>(null);
-  const [input, setInput] = useState('');
+
+  const formik = useFormik<FormValues>({
+    initialValues: { source: null, target: null, input: '' },
+    onSubmit: () => {},
+  });
+
+  const { source, target, input } = formik.values;
 
   const sourceRange = useMemo(() => (source ? getRange(source) : null), [source]);
 
@@ -27,16 +38,8 @@ export default function Converter({ grinders }: ConverterProps) {
   }, [source, target, input]);
 
   function handleSwap() {
-    const prevSource = source;
-    const prevTarget = target;
-    setSource(prevTarget);
-    setTarget(prevSource);
-    // If we had a result, use it as the new input
-    if (result.result) {
-      setInput(result.result.value);
-    } else {
-      setInput('');
-    }
+    const newInput = result.result ? result.result.value : '';
+    formik.setValues({ source: target, target: source, input: newInput });
   }
 
   return (
@@ -44,21 +47,19 @@ export default function Converter({ grinders }: ConverterProps) {
       <GrinderSelect
         grinders={grinders}
         value={source}
-        onChange={g => {
-          setSource(g);
-          setInput('');
-        }}
+        onChange={g => formik.setValues({ ...formik.values, source: g, input: '' })}
         label={t('converter.from')}
       />
 
       <div className="setting-input">
         <label>{t('converter.setting')}</label>
         <input
+          name="input"
           type="text"
           inputMode="decimal"
           placeholder={t('converter.input.placeholder')}
           value={input}
-          onChange={e => setInput(e.target.value)}
+          onChange={formik.handleChange}
           disabled={!source}
         />
         {sourceRange && (
@@ -84,7 +85,7 @@ export default function Converter({ grinders }: ConverterProps) {
       <GrinderSelect
         grinders={grinders}
         value={target}
-        onChange={setTarget}
+        onChange={g => formik.setFieldValue('target', g)}
         label={t('converter.to')}
       />
 
