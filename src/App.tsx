@@ -61,14 +61,14 @@ export default function App() {
 
       <footer>
         <small>
-          {t('app.version')} {data.version}
-        </small>
-        <br />
-        <small>
           {t('app.source')}{' '}
           <a href="https://theweldercatherine.ru/blog/articles/oborudovanie/svyashchennyy-pomol-chast-5/" rel="nofollow noreferrer" target="_blank">
             The Welder Catherine
           </a>
+        </small>
+        <br />
+        <small>
+          {t('app.version')} {__APP_VERSION__}
         </small>
       </footer>
     </main>

@@ -53,7 +53,7 @@ describe('App', () => {
       expect(screen.getByText(/app\.title/)).toBeInTheDocument();
     });
 
-    expect(screen.getByText(/08022026/)).toBeInTheDocument();
+    expect(screen.getByText(/app\.version/)).toBeInTheDocument();
   });
 
   it('shows error state on fetch failure', async () => {
