@@ -11,6 +11,12 @@ node_modules/
 # dist
 dist/
 
+# coverage
+coverage/
+
+# Playwright
+test-results/
+
 # data
 data/
 
