@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v0.2.2
+
+### Fixes
+- **fix:** Adjust language switcher container position
+
 ## v0.2.1
 
 ### Fixes
